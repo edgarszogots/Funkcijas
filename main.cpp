@@ -9,13 +9,12 @@ int process (int x, int y, int & max, double & avg) {
   }
   else{
     max = y;
-    starpiba = y;
+    starpiba = y-x;
   }
   return starpiba;  
 
 };
-
-int main() {
+  int main() {
 	int a,b,liel;
 	double vid;
 	cout << "Ievadiet skaitļus:\n";
