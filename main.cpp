@@ -4,8 +4,19 @@
 using namespace std;
 int process (int x, int y, int & max, double & avg) 
 {
-//Iztrūkst kods!!!!!!!!!!!!!!!
-}
+int starp;
+avg = (x+y)/2;
+if(x > y){
+  max = x ;
+    starp = x-y;
+  }
+  else {
+    max = y;
+    starp = y;
+  }
+
+
+}  
 int main() {
 	int a,b,liel;
 	double vid;
@@ -20,3 +31,4 @@ int main() {
 		<< diff << endl;
 	return 0;
 }
+
