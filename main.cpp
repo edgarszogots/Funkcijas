@@ -1,5 +1,4 @@
 #include <iostream>
-
 using namespace std;
 int process (int x, int y, int & max, double & avg) {
   int starpiba;
@@ -13,7 +12,8 @@ int process (int x, int y, int & max, double & avg) {
     starpiba = y;
   }
   return starpiba;  
-}
+
+};
 
 int main() {
 	int a,b,liel;
