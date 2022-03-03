@@ -4,8 +4,18 @@
 using namespace std;
 int process (int x, int y, int & max, double & avg) 
 {
-//Iztrūkst kods!!!!!!!!!!!!!!!
-}
+int starpiiba;
+avg = (x+y)/2,0;
+if(x > y){
+  max = x;
+    starpiiba = x-y;
+  }
+  else {
+    max = y;
+    starpiiba = y-x;
+  }
+  return starpiiba;
+} 
 int main() {
 	int a,b,liel;
 	double vid;
