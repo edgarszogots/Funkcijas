@@ -3,9 +3,17 @@
 
 using namespace std;
 int process (int x, int y, int & max, double & avg) 
+
 {
-//Iztrūkst kods!!!!!!!!!!!!!!!
-}
+int starp;
+avg = (a+b) / 2;
+if (a>b) {
+  max = a;
+  starp = b-a; }
+else if (b-a) { 
+  //...
+  //...
+  }
 int main() {
 	int a,b,liel;
 	double vid;
