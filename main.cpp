@@ -2,9 +2,18 @@
 
 
 using namespace std;
-int process (int x, int y, int & max, double & avg) 
+int process (int x, int y, int & max, double & avg) {avg=(x+y)/2.0;
+if (x>y) {
+  max=x;
+  return x-y;
+  }
+  else {
+    max=y;
+    return y-x;
+  }
 {
-//Iztrūkst kods!!!!!!!!!!!!!!!
+
+}
 }
 int main() {
 	int a,b,liel;
