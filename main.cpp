@@ -1,22 +1,55 @@
-#include <iostream>
-
+#include
 
 using namespace std;
-int process (int x, int y, int & max, double & avg) 
+
+int process (int x, int y, int & max, double & avg)
+
 {
-//Iztrūkst kods!!!!!!!!!!!!!!!
+
+avg=(x+y)/2;
+
+if (x>y){
+
+max=x;
+
+return x-y;
+
 }
+
+else {
+
+max=y;
+
+return y-x;
+
+}
+
+}
+
 int main() {
-	int a,b,liel;
-	double vid;
-	cout << "Ievadiet skaitļus:\n";
-	cin >> a >> b;
-	int diff=process(a,b,liel,vid);
-	cout << "Lielākais: "
-		<< liel << endl;
-	cout << "Vidējais: "
-		<< vid	<< endl;
-	cout << "Starpība: "
-		<< diff << endl;
-	return 0;
+
+int a,b,liel;
+
+double vid;
+
+cout << "Ievadiet skaitļus:\n";
+
+cin >> a >> b;
+
+int diff=process(a,b,liel,vid);
+
+cout << "Lielākais: "
+
+<< liel << endl;
+
+cout << "Vidējais: "
+
+<< vid << endl;
+
+cout << "Starpība: "
+
+<< diff << endl;
+
+return 0;
+
 }
