@@ -1,18 +1,20 @@
 #include <iostream>
 using namespace std;
-int process (int x, int y, int & max, double & avg) 
-{
- avg = x/2.0+y/2.0;  
-if (x > y) {
-max = x;
-  return max - y;
-}	
-else {
-max = y;
- return max - x; 
-} 
- main
-}
+int process (int x, int y, int & max, double & avg) {
+  int starpiba;
+  avg = (x+y)/2.0;
+  if(x > y){
+    max = x;
+    starpiba = x-y; 
+  }
+  else{
+    max = y;
+    starpiba = y;
+  }
+  return starpiba;  
+
+};
+
 int main() {
 	int a,b,liel;
 	double vid;
